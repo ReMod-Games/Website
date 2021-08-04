@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReMod Games</title>
+
+    <!-- node imports -->
+    <!-- <script src = "src/javascript/libs/require.js"></script> -->
+    <script src = "node_modules/vue/dist/vue.js"></script>
+    <script src = "node_modules/vue-markdown/dist/vue-markdown.js"></script>
+
+    <!-- website decls -->
+    <script src="./index.js" type="module"></script>
 </head>
 <body>
     <div id="website">
         {{ message }}
     </div>
+    <vue-markdown src = '/src/markdown/test.md'></vue-markdown>
 </body>
 </html>
