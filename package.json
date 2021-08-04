@@ -1,0 +1,23 @@
+{
+  "name": "remod-website",
+  "version": "0.0.1",
+  "description": "The website for ReMod Games Team.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test Command\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReMod-Games/Website.git"
+  },
+  "author": "ReMod Games",
+  "license": "LGPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/ReMod-Games/Website/issues"
+  },
+  "homepage": "https://github.com/ReMod-Games/Website#readme",
+  "type": "module",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
+}
