@@ -50,6 +50,12 @@
 ~*
 
 # ignore node/grunt dependency directories
+websmith/node_modules/
+websmith/.next
+websmith/.env.local
+websmith/.env.development.local
+websmith/.env.test.local
+websmith/.env.production.local
 node_modules/
 
 # ignore composer vendor directory
